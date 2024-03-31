@@ -1,0 +1,178 @@
+/* Header Styling */
+
+
+
+.navbar {
+    /* background-color: black; */
+    box-shadow: 10px 10px 10px rgb(28, 230, 206);
+}
+
+.navbar li {
+    float: right;
+    list-style: none;
+    /* Whenever float is used the element gets overflown from the parent so to tacke this we need to add overflow auto to the parent (in this case li's parent is ul). */
+    margin: 20px 30px;
+    font-style: italic;
+    color: rgb(28, 230, 206);
+    font-size: x-large;
+
+}
+
+
+.navbar li a {
+    color: rgb(28, 230, 206);
+}
+
+.navbar li a:hover {
+    color: red;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.search {
+    float: left;
+    color: white;
+    padding: 20px 9px;
+    border: 2px solid rgb(28, 230, 206);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(28, 230, 206);
+}
+
+.size {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+header {
+    margin-top: -16px;
+    margin-bottom: 100px;
+}
+
+
+
+/* Main Body Content Styling */
+
+
+body {
+    margin: 0px;
+    background: url(landing_bg_unsplash.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.zero{
+    box-sizing: border-box;
+    margin: 100px;
+    padding: 50px;
+    font-size: xx-large;
+    font-style: oblique;
+    color: rgb(28, 230, 206);
+    text-align: center;
+    text-shadow: 3px 3px 3px;
+}
+
+.one,
+.two,
+.three {
+
+    box-sizing: border-box;
+    border: 5px double white;
+    margin: 100px;
+    /* margin-left: 350px; */
+    padding: 50px;
+    font-size: x-large;
+    font-style: oblique;
+    color: white;
+    /* background-color: white; */
+    text-align: center;
+    text-shadow: 1px 1px 1px;
+    width: 750px;
+    box-shadow: 10px 10px 10px rgb(28, 230, 206);
+}
+
+.main-class {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.right {
+    margin-right: 100px;
+}
+
+#img1 {
+    height: 300px;
+    width: 500px;
+    margin-top: 550px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px rgb(28, 230, 206);
+    opacity: 0.7;
+}
+
+#img2 {
+    margin-top: 100px;
+    height: 300px;
+    width: 500px;
+    box-shadow: 10px 10px 10px rgb(28, 230, 206);
+    opacity: 0.7;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/* Bottom Footer Styling */
+
+
+.bottom-foot {
+    background-color: black;
+    color: rgb(28, 230, 206);
+    height:fit-content;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex:1;
+    flex-direction: row;
+}
+
+.left2{
+    float: left;
+}
+
+.right2 ul{
+    list-style: none;
+}
+
+.right2{
+    float:right;
+    margin-left: 1000px;
+    margin-top: 20px;
+}
+
+.left2 ul{
+    list-style-type: none;
+}
+
+.left2 li a{
+    color: rgb(28, 230, 206);
+    font-size:larger;
+}
+
+.left2 li a:hover{
+    color: red;
+}

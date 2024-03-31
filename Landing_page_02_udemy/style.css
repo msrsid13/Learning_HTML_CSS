@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-image: url("rohit-tandon-9wg5jCEPBsw-unsplash.jpg");
+    background-size: cover;
+    
+}
+
+.header {
+    border: 5px solid white;
+    background-color: rgba(0,0,0,0.5); /* 0,0,0 are color combo while 0.5 is opacity of the background color without affecting the opacity of the text */
+    box-shadow: 5px 5px 5px white;
+    color:white;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.heading1 {
+    display: inline-block;
+    margin-left: 900px;
+    margin-right: 45px;
+    margin-top: 40px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.heading2 {
+    display: inline-block;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.heading3 {
+    display: inline-block;
+    margin-left: 45px;
+    margin-right: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: xx-large;
+    text-shadow: 2px 2px 2px;
+}
+
+.content{
+    border: 5px solid black;
+    max-width: 30%;
+    margin-top: 20px;
+    margin-left: 530px;
+    margin-bottom: 200px;
+    box-shadow: 5px 5px 5px white;
+    color: white;
+    font-size: large;
+}
+
+.all-content{
+    border: 1px solid black;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.footer-box{
+    border: 1px solid black;
+    background-color: white;
+    height: 150px;
+    box-shadow: 5px 5px 5px;
+
+}
+
+.footer-1{
+    display: inline-block;
+    list-style: none;
+    font-size:large;
+    font-weight: 700;
+    padding: auto;
+    margin: 20px;
+    margin-left: 400px;
+}
+
+.footer-2{
+    display: inline-block;
+    list-style: none;
+    font-size:large;
+    font-weight: 700;
+    padding: auto;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.footer-3{
+    display: inline-block;
+    list-style: none;
+    font-size:large;
+    font-weight: 700;
+    padding: auto;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.footer-4{
+    display: inline-block;
+    list-style: none;
+    font-size:large;
+    font-weight: 700;
+    padding: auto;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.copyright{
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+}
