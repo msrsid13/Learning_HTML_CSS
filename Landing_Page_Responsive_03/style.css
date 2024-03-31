@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: rgba(230, 106, 29, 0.765);
+}
+
+.head{
+    border: 1px solid black;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    
+}
+
+/* .list-holder{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+li{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.h-li-1{
+    overflow: hidden;
+    width: 20%;
+    border: 2px solid grey;
+    box-shadow: 4px 4px 0 grey;
+}
+
+.h-li-5 , .h-li-4  ,.h-li-3 , .h-li-2 {
+    display: block;
+    float: right;
+    margin-right: 2rem;
+    padding: 15px;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    background-color: cyan;
+}
+
+.h-li-5 a,
+.h-li-4 a,
+.h-li-3 a,
+.h-li-2 a {
+    text-decoration: none;  /* removes the line under the link shown bydefault */
+}
+
+.h-li-5 a:hover,
+.h-li-4 a:hover,
+.h-li-3 a:hover,
+.h-li-2 a:hover {
+    
+    color: rgb(28, 176, 99);
+}
